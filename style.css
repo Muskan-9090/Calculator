@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(#96EFFF,#5FBDFF);
+}
+#heading{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+    text-align: center;
+    text-shadow: 1px 1px  red;
+    margin: 15px;
+}
+.box{
+    height:500px;
+    width:900px;
+    margin-left:300px;
+    background: linear-gradient(#C5FFF8,#96EFFF);
+    box-shadow: 1px 1px 1px 1px blue;
+    padding:40px;
+    margin-bottom:62px;
+}
+.output{
+    width:860px;
+    background-color: #97FEED;
+    color:black;
+    border:1px solid blueviolet;
+    border-radius:2px;
+    padding:20px 10px;
+    margin:20px 8px;
+    margin-top:10px;
+    text-align: right;
+    font-size: 20px;
+}
+.btn{
+    background-color: whitesmoke;
+    border-radius:200px;
+    padding:18px 34px;
+    margin:10px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-flex;
+}
+.operator{
+    background-color: whitesmoke;
+    border-radius:200px;
+    padding:18px 34px;
+    margin:10px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-flex;
+}
+.num{
+    background-color: cadetblue;
+    padding:20px 30px;
+    border-radius:200px;
+    margin:10px 30px;
+    font-size: 20px;
+    display: inline-flex;
+    
+}
+#equal{
+    background-color: cornflowerblue;
+    margin-left:35px;
+}
+.calc{
+    display:flex;
+}
+.res{
+    height:300px;
+    width:200px;
+    padding:5px 20px;
+    margin-top:60px;
+    margin-left:60px;
+    background:linear-gradient(lightblue,whitesmoke);
+    color: darkblue;
+    text-shadow:1px 1px red;
+    font-size: 40px;
+}
+.hide{
+    display:none;
+}
