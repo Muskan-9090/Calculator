@@ -78,6 +78,7 @@ body{
     color: darkblue;
     text-shadow:1px 1px red;
     font-size: 40px;
+    overflow-x: scroll;
 }
 .hide{
     display:none;
